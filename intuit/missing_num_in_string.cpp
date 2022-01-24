@@ -5,9 +5,7 @@ long long sto(string s)
       x=x*10+s[i]-'0';
     return x;
 }
-/* You are required to complete this function
-which return the required missing number
-if present else return -1*/
+
 int missingNumber(const string& str)
 {
     long long n = str.size();
